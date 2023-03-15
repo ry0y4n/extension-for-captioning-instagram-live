@@ -1,0 +1,10 @@
+{
+    "name": "Instagram Live Captions",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "インスタライブに字幕をつける拡張機能",
+    "content_scripts": [{
+        "matches": ["https://www.instagram.com/*/live/"],
+        "js": ["content.js"]
+    }]
+}
