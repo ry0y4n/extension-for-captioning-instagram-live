@@ -67,45 +67,11 @@ function vr_function() {
                 flag_speech = 1;
             }
         }
-        console.log([lastFinished, currentTranscripts].join('<br>'))
         document.getElementById('result-text').innerHTML = [lastFinished, currentTranscripts].join('<br>');
         setTimeoutForClearText();
     }
     flag_speech = 0;
-    // document.getElementById('status').innerHTML = "start";
     recognition.start();
 }
 
 vr_function();
-
-// SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
-// const recognition = new SpeechRecognition();
-
-// recognition.lang = 'ja-JP';
-// recognition.interimResults = true;
-// recognition.interimResults = true;
-
-// let finalTranscript = '';
-
-// recognition.onresult = (event) => {
-//     console.log(event.results[0][0].transcript);
-// }
-
-// recognition.start();
-
-// List cameras and microphones.
-
-// navigator.mediaDevices.enumerateDevices()
-// .then(function(devices) {
-//   devices.forEach(function(device) {
-//     console.log(device.kind + ": " + device.label +
-//                 " id = " + device);
-//     console.log(JSON.stringify(device, null, 2));
-
-//   });
-// })
-// .catch(function(err) {
-//   console.log(err.name + ": " + err.message);
-// });
-
-console.log("complete")
