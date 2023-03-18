@@ -9,13 +9,15 @@
 
 ## インストール方法
 
-[WIP]
+1. Chromeウェブストアから拡張機能をインストールします（[リンク](https://chrome.google.com/webstore/detail/instagram-live-captions/pmjmnmlgkhhmllldibpmnkbjmcphikdn?hl=ja&authuser=0)）
+2. インストール後，ブラウザを再起動します
 
 ## 使い方
 
 1. [BlackHole](https://existential.audio/blackhole/)をインストール
-2. [この記事](https://dev.classmethod.jp/articles/record-sounds-on-mac-with-blackhohle/)を参考に，仮想オーディオを作成
-3. インスタライブを開き，文字起こしを確認する（うまくいかない場合はリロード等を試す）
+2. [この記事](https://dev.classmethod.jp/articles/record-sounds-on-mac-with-blackhohle/)を参考に仮想オーディオを作成
+3. インスタライブを開き，マイク許可を要求されるので許可し作成した仮想オーディオを選択する
+4. 文字起こしを確認する（うまくいかない場合はリロード等を試す）
 
 ## デモ
 
